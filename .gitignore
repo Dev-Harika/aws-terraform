@@ -1,0 +1,15 @@
+# Terraform state
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+tfplan
+
+# Secrets
+*.tfvars
+!*.tfvars.example
+.env
+
+# OS
+.DS_Store
+Thumbs.db
